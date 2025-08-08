@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+er# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhenyang Tang"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher. Teacher. Thinker."
+  bio              : "Researcher. Teacher. Dreamer."
   employer         : "Clark University"
   uri              : # URL
   email            : "zhenyang.tang@gmail.com" 
@@ -37,8 +37,6 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -52,7 +50,6 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -79,8 +76,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
