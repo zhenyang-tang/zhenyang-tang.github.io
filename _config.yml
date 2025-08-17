@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhenyang Tang"
+title                    : "Zhenyang's Website"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://zhenyang-tang.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -24,10 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Zhenyang Tang"
-  pronouns         : # example: "she/her"  
   bio              : "Researcher. Teacher. Dreamer."
   employer         : "Clark University"
-  uri              : # URL
   email            : "zhenyang.tang@gmail.com" 
 
   # Academic websites
@@ -44,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
