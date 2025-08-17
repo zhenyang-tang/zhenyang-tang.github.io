@@ -1,3 +1,11 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 # About Me
 Hi, I'm Zhenyang Tang — part economist, part storyteller, part accidental songwriter. By day, I'm an associate professor of finance at Clark University. By night, you'll find me working on research papers, songs, or other creative projects — sometimes with a bit too much tea and a bit too little sleep. 
 
