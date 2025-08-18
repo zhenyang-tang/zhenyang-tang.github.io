@@ -2,7 +2,7 @@
 title: "Religion and the Method of Earnings Management: Evidence from China"
 collection: publications
 category: manuscripts
-permalink: publication/2020-01-01-Religion-and-the-method-of-earnings-management.md
+permalink: /publication/2020-01-01-Religion-and-the-method-of-earnings-management.md
 excerpt: 'Consistent with the view that religion proxies for risk aversion, we find in a sample of Chinese firms that the positive (negative) association between religiosity and real (accrual) earnings management is stronger for firms with lower litigation risk and for those audited by less reputable auditors.'
 year: 2020
 venue: 'Journal of Business Ethics'
