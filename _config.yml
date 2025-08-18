@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhenyang's Website"
+title                    : "Zhenyang's Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Zhenyang Tang"
 description              : &description "personal description"
 url                      : https://zhenyang-tang.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,6 +26,7 @@ author:
   name             : "Zhenyang Tang"
   bio              : "Researcher. Teacher. Dreamer."
   employer         : "Clark University"
+  location         : "Worcester, MA, USA"
   email            : "zhenyang.tang@gmail.com" 
 
   # Academic websites
