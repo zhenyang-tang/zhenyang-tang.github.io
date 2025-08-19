@@ -54,49 +54,26 @@ author_profile: true
     <br><a href="/files/paper12.pdf" target="_blank">Download pre-print</a>
   </li>
   <li>
-    <a href="https://doi.org/10.1007/s10551-019-04381-8" target="_blank">Maung, M., Miller, D., Tang, Z., & Xu, X. (2020). Value-enhancing social responsibility: Market reaction to donations by family vs. non-family firms with religious CEOs. Journal of Business Ethics, 163(4), 745-758.</a>
+    Maung, M., Miller, D., Tang, Z., & Xu, X. (2020). <a href="https://doi.org/10.1007/s10551-019-04381-8" target="_blank">Value-enhancing social responsibility: Market reaction to donations by family vs. non-family firms with religious CEOs.</a> <i>Journal of Business Ethics</i>, 163(4), 745-758.
     <br><a href="/files/paper13.pdf" target="_blank">Download pre-print</a>
   </li>
   <li>
-    <a href="https://doi.org/10.1007/s10551-018-3971-6" target="_blank">Cai, G., Li, W., & Tang, Z. (2020). Religion and the method of earnings management: Evidence from China. Journal of Business Ethics, 161, 71-90.</a>
+    Cai, G., Li, W., & Tang, Z. (2020). <a href="https://doi.org/10.1007/s10551-018-3971-6" target="_blank">Religion and the method of earnings management: Evidence from China.</a> <i>Journal of Business Ethics</i>, 161, 71-90.
     <br><a href="/files/paper14.pdf" target="_blank">Download pre-print</a>
   </li>
   <li>
-    <a href="https://doi.org/10.1111/irfi.12246" target="_blank">Liang, C. Y., Tang, Z., & Xu, X. (2020). Return synchronicity and insider trading profitability. International Review of Finance, 20(4), 857-895.</a>
+    Liang, C. Y., Tang, Z., & Xu, X. (2020). <a href="https://doi.org/10.1111/irfi.12246" target="_blank">Return synchronicity and insider trading profitability.</a> <i>International Review of Finance</i>, 20(4), 857-895.
     <br><a href="/files/paper15.pdf" target="_blank">Download pre-print</a>
   </li>
   <li>
-    <a href="https://www.pm-research.com/content/iijpormgmt/early/2019/03/06/jpm20191085" target="_blank">Liang, C. Y., Tang, Z. D., & Xu, X. (2019). Uncertainty, momentum, and profitability. The Journal of Portfolio Management, 45(4), 91-104.</a>
+    Liang, C. Y., Tang, Z. D., & Xu, X. (2019). <a href="https://www.pm-research.com/content/iijpormgmt/early/2019/03/06/jpm20191085" target="_blank">Uncertainty, momentum, and profitability.</a> <i>The Journal of Portfolio Management</i>, 45(4), 91-104.
     <br><a href="/files/paper16.pdf" target="_blank">Download pre-print</a>
   </li>
   <li>
-    <a href="https://doi.org/10.1016/j.econmod.2017.10.005" target="_blank">Parida, S., & Tang, Z. (2018). Price competition in the mutual fund industry. Economic Modelling, 70, 29-39.</a>
+    Parida, S., & Tang, Z. (2018). <a href="https://doi.org/10.1016/j.econmod.2017.10.005" target="_blank">Price competition in the mutual fund industry.</a> <i>Economic Modelling</i>, 70, 29-39.
     <br><a href="/files/paper17.pdf" target="_blank">Download pre-print</a>
   </li>
 </ol>
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 
 
